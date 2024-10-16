@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Odd or Even Portal</title>
+    </head>
+    <body>
+        <p id="n">This is the Odd or Even checking portal</p>
+    </body>
+    <script>
+        let i = document.getElementById("n");
+        let num = prompt("Enter your number to check if it is odd or even:");
+
+        if (num % 2 === 0) {
+            alert("This is an even number.");
+            i.innerHTML += " This is an even number.";
+        } else {
+            alert("This is an odd number.");
+            i.innerHTML += " This is an odd number.";
+        }
+    </script>
+</html>
